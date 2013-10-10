@@ -1,0 +1,15 @@
+# douban.com books search engine plug-in by xinghang <cpper.xing@gmail.com>
+
+<search 
+   version = "7.1" 
+   name="dbbook"
+   description="douban.com 豆瓣读书搜索"
+   method="GET"
+   action="http://book.douban.com/subject_search"
+   searchForm="http://book.douban.com"
+   queryCharset="utf-8"
+>
+
+<input name="search_text" user> 
+<input name="cat" value="1001">
+</search>
