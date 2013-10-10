@@ -1,0 +1,15 @@
+# douban.com movies search engine plug-in by xinghang <cpper.xing@gmail.com>
+
+<search 
+   version = "7.1" 
+   name="dbbook"
+   description="douban.com 豆瓣电影搜索"
+   method="GET"
+   action="http://book.douban.com/subject_search"
+   searchForm="http://movie.douban.com"
+   queryCharset="utf-8"
+>
+
+<input name="search_text" user> 
+<input name="cat" value="1002">
+</search>
