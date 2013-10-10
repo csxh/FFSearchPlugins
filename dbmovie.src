@@ -2,7 +2,7 @@
 
 <search 
    version = "7.1" 
-   name="dbbook"
+   name="dbmovie"
    description="douban.com 豆瓣电影搜索"
    method="GET"
    action="http://book.douban.com/subject_search"
